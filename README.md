@@ -48,10 +48,10 @@ This means it's working! It caught Claude Code trying to save your data and stop
 
 ## FAQ
 
-**Q: Wait, did you use Claude Code to write a script that prevents itself from logging keystrokes???**
+**Q: Wait, did you use Claude Code to write a script that prevents itself from logging keystrokes???**  
 A: Yes, lol. It expressed disbelief and disgust. However, I guided the process and refined it. I added several quality of life features to the installation to make it absolutely foolproof even for beginners. It also runs constantly and reverts Claude Code's attempts to save this sort of data instantly. However, there may be room for improvement that I'm not aware of. If anyone knows how to improve it even further they're welcome to submit a pull request.
 
-**Q: "I just read the notes. Do I plug this in an existing .json file or is it its own file entirely? Also I was thinking how nefarious this sounds, although I wouldn’t be surprised if it’s just sloppy code implemented with no regard for privacy. I usually just assume it’s “accidentally” potentially exploitable."**
+**Q: "I just read the notes. Do I plug this in an existing .json file or is it its own file entirely? Also I was thinking how nefarious this sounds, although I wouldn’t be surprised if it’s just sloppy code implemented with no regard for privacy. I usually just assume it’s “accidentally” potentially exploitable."**  
 A: The cleaner script is designed to be run directly from the terminal in Linux. You simply paste the command, and it handles the rest, including importing the script and setting up a virtual environment. Virtual environments are important because they allow programs to use specific versions of software (like Python) without conflicting with other programs or the operating system's default installations.
 
 Regarding the "nefarious" aspect, it's possible this is a result of oversight rather than malicious intent, though it's still concerning. The company stated they train on data from free-tier users, but this logging behavior suggests a more pervasive data collection, potentially affecting all users by default. It appears to be an error in implementation, effectively releasing a keylogger-like feature, which is typically found in malware. I spent a lot of time verifying it wasn't a virus and consulted various AIs, all of which confirmed it was likely a design flaw rather than malicious code.
