@@ -48,9 +48,7 @@ This means it's working! It caught Claude Code trying to save your data and stop
 
 ## FAQ
 
-**Someone recently asked about the cleaner script:
-
-**Q: "I just read the notes. Do I plug this in an existing .json file or is it its own file entirely? Also I was thinking how nefarious this sounds, although I wouldn’t be surprised if it’s just sloppy code implemented with no regard for privacy. I usually just assume it’s “accidentally” potentially exploitable."
+**Q: "I just read the notes. Do I plug this in an existing .json file or is it its own file entirely? Also I was thinking how nefarious this sounds, although I wouldn’t be surprised if it’s just sloppy code implemented with no regard for privacy. I usually just assume it’s “accidentally” potentially exploitable."**
 
 A: The cleaner script is designed to be run directly from the terminal in Linux. You simply paste the command, and it handles the rest, including importing the script and setting up a virtual environment. Virtual environments are important because they allow programs to use specific versions of software (like Python) without conflicting with other programs or the operating system's default installations.
 
