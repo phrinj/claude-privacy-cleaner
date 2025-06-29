@@ -9,6 +9,9 @@ Claude Code (the terminal-based AI coding assistant) logs EVERYTHING you type (e
 **Before**: Claude Code saves your email, every folder you open, and partial keystrokes  
 **After**: Claude Code only saves your MCP server configs (the technical stuff that needs to work)
 
+## Do you have evidence?
+https://github.com/phrinj/claude-privacy-cleaner/blob/main/claude_code_privacy_evidence.md
+
 ## The Absolute Easiest Way (Copy & Paste)
 
 1. **Login to Claude Code at least once before running the tool**
