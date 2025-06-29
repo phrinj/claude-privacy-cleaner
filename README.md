@@ -11,17 +11,19 @@ Claude Code (the terminal-based AI coding assistant) logs EVERYTHING you type (e
 
 ## The Absolute Easiest Way (Copy & Paste)
 
-1. **Open a NEW Terminal** (not the one running Claude Code!)
-   - Windows: Open a new WSL/Ubuntu window
-   - Mac: Open a new Terminal tab/window (Cmd+T)
+1. **Login to Claude Code at least once before running the tool**
+
+2. **Open a NEW Terminal** (not the one running Claude Code!)  
+   - Windows: Open a new WSL/Ubuntu window  
+   - Mac: Open a new Terminal tab/window (Cmd+T)  
    - Linux: Open a new terminal
 
-2. **Copy this entire line and paste it:**
+3. **Copy this entire line and paste it:**
 ```bash
 curl -sSL https://raw.githubusercontent.com/phrinj/claude-privacy-cleaner/main/claude_privacy_cleaner.py -o claude_privacy_cleaner.py && python3 claude_privacy_cleaner.py
 ```
 
-3. **That's it!** Leave it running while you use Claude Code.
+4. **That's it!** Leave it running while you use Claude Code.
 
 ## What You'll See
 
@@ -44,7 +46,10 @@ Then occasionally:
 
 This means it's working! It caught Claude Code trying to save your data and stopped it.
 
-## FAQ for Absolute Beginners
+## FAQ
+
+**Q: Why do I need to login before using this tool? Didn't you say it would store my unencrypted plaintext OAuth metadata??**  
+A: Unfortunately Claude Code requires the plaintext OAuth metadata to be stored in this file to login initially. I recommend running this script immediately after logging in. After that, it will stay logged in despite the plaintext metadata not being in the file.
 
 **Q: Do I need to install Python?**  
 A: Maybe! Claude Code only requires Node.js. Try the command first. If it fails:
@@ -77,6 +82,7 @@ The script creates its own virtual environment at `.claude-privacy-venv` so it w
 - Clone the repo if you prefer
 - Modify what data gets kept/removed
 - Run it as a systemd service
+- Change the venv location if you prefer.
 
 ## What Gets Removed
 
@@ -92,26 +98,13 @@ The script creates its own virtual environment at `.claude-privacy-venv` so it w
 - ✅ Basic app preferences
 - ✅ Minimum data to avoid re-onboarding
 
-## Note
-
-You'll need to log in to Claude each time you start it. That's the price of privacy - your email isn't stored in plain text anymore.
-
-## Wait, What's Claude Code?
-
-Claude Code is the terminal-based AI coding assistant that can:
-- Work autonomously for 7+ hours (powered by Opus 4)
-- Edit files, fix bugs, run tests
-- Search your codebase and git history
-
-Install it with: `npm install -g @anthropic-ai/claude-code`
-
 ## Still Lost?
 
 1. In your terminal, type: `claude`
-2. Ask me: "How do I run the privacy cleaner Python script?"
-3. I'll walk you through it!
+2. Ask Claude: "How do I run the privacy cleaner Python script?"
+3. Claude will walk you through it!
 
-## Credits
+## Credits (written by Claude Opus 4)
 
 Special thanks to Claude Opus 4, who helped uncover the "creative" data collection practices in `.claude.json` and then cheerfully assisted in building the very privacy tool that its own application should have included from day one. 
 
@@ -134,7 +127,7 @@ Open an issue on GitHub or just message me. I'm new to this but I'll try to help
 
 ## Support This Project
 
-**Buy me a coffee (or gas money):** 
+**Buy me a coffee (or gas money):**  
 Bitcoin: `3B6SmUrUVFqWSBRdSbRkr4HoyA5D7S6WUj`
 
 ## License
