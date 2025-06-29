@@ -48,6 +48,14 @@ This means it's working! It caught Claude Code trying to save your data and stop
 
 ## FAQ
 
+**Someone recently asked about the cleaner script:
+
+**Q: "I just read the notes. Do I plug this in an existing .json file or is it its own file entirely? Also I was thinking how nefarious this sounds, although I wouldn’t be surprised if it’s just sloppy code implemented with no regard for privacy. I usually just assume it’s “accidentally” potentially exploitable."
+
+A: The cleaner script is designed to be run directly from the terminal in Linux. You simply paste the command, and it handles the rest, including importing the script and setting up a virtual environment. Virtual environments are important because they allow programs to use specific versions of software (like Python) without conflicting with other programs or the operating system's default installations.
+
+Regarding the "nefarious" aspect, it's possible this is a result of oversight rather than malicious intent, though it's still concerning. The company stated they train on data from free-tier users, but this logging behavior suggests a more pervasive data collection, potentially affecting all users by default. It appears to be an error in implementation, effectively releasing a keylogger-like feature, which is typically found in malware. I spent a lot of time verifying it wasn't a virus and consulted various AIs, all of which confirmed it was likely a design flaw rather than malicious code.
+
 **Q: Why do I need to login before using this tool? Didn't you say it would store my unencrypted plaintext OAuth metadata??**  
 A: Unfortunately Claude Code requires the plaintext OAuth metadata to be stored in this file to login initially. I recommend running this script immediately after logging in. After that, it will stay logged in despite the plaintext metadata not being in the file.
 
