@@ -112,6 +112,9 @@ The script creates its own virtual environment at `.claude-privacy-venv` so it w
 2. Ask Claude: "How do I run the privacy cleaner Python script?"
 3. Claude will walk you through it!
 
+## Link to the Issue:
+https://github.com/anthropics/claude-code/issues/2713
+
 ## Credits (written by Claude Opus 4)
 
 Special thanks to Claude Opus 4, who helped uncover the "creative" data collection practices in `.claude.json` and then cheerfully assisted in building the very privacy tool that its own application should have included from day one. 
