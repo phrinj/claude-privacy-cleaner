@@ -150,4 +150,5 @@ MIT License - Use it however you want! Copy it, modify it, sell it, whatever. Ju
 
 ---
 
-*Made by someone who believes software should just work* 🚗 (your local uber driver with a tablet taped to his dash, but hey, I'm just "vibe" coding)
+*Made by someone who believes software should just work* 🚗 (your local uber driver with a tablet taped to his dash)
+
