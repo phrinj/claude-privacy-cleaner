@@ -11,7 +11,7 @@ This snippet demonstrates how Claude Code records every prompt, including incomp
     "pastedContents": {}
   },
   {
-    "display": "can you write a markdown document summarizing correct MCP server setup",
+    "display": "please compose a markdown document summarizing correct MCP server setup",
     "pastedContents": {}
   }
 ]
