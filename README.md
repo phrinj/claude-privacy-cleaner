@@ -52,6 +52,9 @@ This means it's working! It caught Claude Code trying to save your data and stop
 
 ## FAQ
 
+**Q: It's on my own computer, so what?**  
+A: You might have malware you don't know about. Malware is there to find personal data - this data breach is creating that data in the first place.
+
 **Q: Wait, did you use Claude Code to write a script that prevents itself from logging keystrokes???**  
 A: Yes, lol. It expressed disbelief and disgust. However, I guided the process and refined it. I added several quality of life features to the installation to make it absolutely foolproof even for beginners. It also runs constantly and reverts Claude Code's attempts to save this sort of data instantly. However, there may be room for improvement that I'm not aware of. If anyone knows how to improve it even further they're welcome to submit a pull request.
 
